@@ -1,0 +1,350 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(215, 236, 221);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.logo{
+    height: 70px;
+}
+.list{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+.list .links {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+        transition: color 1s;
+        font-weight: bold;
+            cursor: pointer;
+
+}
+.links:hover{
+    color:rgb(5, 172, 69);
+    transition: all 0.3s ease-in-out;
+}
+.logo{
+    height: 80px;  
+}
+.submenu{
+    display: none;
+}
+.navbar ul li:hover .submenu{
+    display: block;
+    position:absolute;
+    background:rgb(4, 80, 57);
+    color: #70db70;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 320px;
+}
+
+.navbar ul li:hover .submenu ul{
+    display: block;
+    /* margin: 5px; */
+}
+.navbar ul li:hover .submenu ul li{
+    margin: 0px;
+    align-items: center;
+}
+hr{
+    color: rgb(5, 172, 69);
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #70db70;
+    color:  rgb(4, 80, 57);;
+  }
+  .button {
+    background-color: rgb(4, 80, 57); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.6s;
+  }
+  .td{
+    height: 500px;
+    width: 75%;
+    margin-left: 180px;
+    border-radius: 5%;
+    background-image: url("aps4.jpeg");
+    opacity: 0.8;
+    position:absolute; 
+    z-index: -1000;
+  }
+  .bad{
+    background-color: rgb(215, 236, 221);
+
+  }
+  .buttonw {
+    background-color:#33cc33; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.6s;
+  }
+  .buttonw:hover{
+    cursor: pointer;
+    background-color:rgb(4, 80, 57) ;
+  }
+  .para{
+    display: flex;
+    margin-top: 550px;
+    margin-left: 180px;
+  }
+  .text{
+    height: 400px ;
+    width: 700px;
+    background-color:rgb(215, 236, 221);
+  }
+  .image{
+    height: 400px ;
+    width: 400px;
+    background-color:rgb(215, 236, 221);
+  }
+  .tadad{
+    display: flex;
+    justify-content: center ;
+    height: 350px;
+    width: auto;
+    background-color: rgb(192, 231, 204);
+  }
+  .tad{
+    font-family: 'Ubuntu', sans-serif;
+    height: 200px;
+    width: 270px;
+    margin-top: 80px;
+    margin-left: 25px;
+    background-color:rgb(215, 236, 221);
+  }
+  .tad:hover{
+    background-color: #70db70;
+    color: antiquewhite;
+    cursor: pointer;
+  }
+  .foot{
+    height: 250px;
+    width: 100%;
+    background-color:rgb(4, 80, 57);
+  }
+  .pehla{
+    height: 70px;
+    width: 600px;
+    margin-top: 15px;
+    margin-left: 500px;
+      }
+  .dosra{
+    height: 70px;
+    width: 1100px;
+    margin-top: 15px;
+    margin-left: 200px;
+    }  
+  .teesra{
+    height: 70px;
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 600px;
+      }
+   .vm{
+    font-size: 50px;
+    padding-left: 170px;
+   }
+   .vmm{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+   }
+   .circle{
+    display: flex;
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    padding-bottom: 150px; 
+  }
+   .sub{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(4, 80, 57);
+    color:#70db70;
+    border-radius: 50%;
+    margin: 40px;
+    margin-top: 70px;
+   }
+   .sub:hover{
+    color:  rgb(4, 80, 57);
+    background-color: #70db70;
+    cursor: pointer;
+   }
+   .maind{
+    display: flex ;
+    height: 450px;
+    width: 1150px;
+    /* background-color: aqua; */
+    margin-left: 180px;
+   }
+   .emain{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    /* background-color: blue; */
+   }
+   .sub1{
+    height: 350px;
+    width:350px;
+    margin-right: 10px;
+    background-image: url(early.jpg);
+   }
+   .sub2{
+    height: 350px;
+    width:350px;
+    margin-right: 10px;
+    background-image: url(primary.jpg);
+   }
+   .sub3{
+    height: 350px;
+    width:350px;
+    margin-right: 10px;
+    background-image: url(middle.jpg);
+   }
+   .sub4{
+    height: 350px;
+    width:350px;
+    margin-right: 10px;
+    background-image: url(matric.jpg);
+   }
+   .lable{
+    height: 50px;
+    width: 350px;
+    background-color: #000000;
+    opacity: 0.8;
+    margin-top: 250px;
+   }
+   .buttonh {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  margin-left: 650px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.buttone:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #70db70;
+  color:  rgb(4, 80, 57);
+}
+.pehal:hover {
+  cursor: pointer;
+  background-color: rgb(4, 80, 57);
+}
+.chota{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #33cc33;
+
+}
+.bara{
+  display: flex;
+}
+.bara1{
+  display: flex;
+}
+.chota1{
+   height: 70px;
+  width: 400px;
+  margin-left: 340px;
+}
+.chota:hover{
+  background-color: rgb(4, 80, 57);
+  cursor: pointer;
+}
+.note{
+  height: 75px;
+  width: 950px;
+  background-color: rgb(1, 6, 10);
+  border-radius: 10px;
+  opacity: 0.5;
+  margin-left: 270px;
+}
+.lastChota{
+  width: 100%;
+  height: 650px;
+  background-color: #bfdabd;
+}
+.z{
+  height: 250px;
+  width: 300px;
+}
+.z1{
+  height: 100px;
+  width: 150px;
+  background-color: #33cc33;
+}
+.lastflex{
+  display: flex;
+  justify-content: space-around;
+}
+.logindiv{
+  margin-top: 70px;
+  height: 490px;
+  width: 490px;
+  margin-left: 480px;
+  background-color: rgb(4, 80, 57);
+  opacity: 0.6;
+  border-radius: 10%;
+}
+.idiv{
+  display: flex;
+}
+.btn_login:hover{
+  background-color: #70db70;
+  color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
